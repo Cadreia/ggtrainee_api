@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.fourty {
+    width: 45%;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+    transition: 0.35s ease-in;
+    margin: 0 auto;
+}
+/* .fourty:hover {
+    border: 2px solid rgb(224, 168, 0);
+}
+ rgba(254, 192, 7)  */
+.size {
+    height: 30px;
+}
+.is-invalid:focus {
+    box-shadow: none !important;
+}
+.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid  rgb(224, 168, 0);
+    transition: 0.4s ease-in;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-bottom: 1.5px solid rgb(224, 168, 0);
+}
+/*
+input:focus + label{
+    font-size: 12px !important;
+    color: red;
+}
+*/
+
