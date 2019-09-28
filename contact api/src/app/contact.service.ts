@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class ContactService {
-  private _url = 'something';
+  private _url = 'http://gg-trainee-contacts-api.herokuapp.com/api/contacts';
 
   getContacts() {
     return this.http.get(this._url);
